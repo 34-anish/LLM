@@ -1,0 +1,7 @@
+playwright 
+scrapegraphai==0.9.0b7 
+nest_asyncio
+fastapi
+uvicorn
+transformers
+pydentic
