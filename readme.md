@@ -7,6 +7,36 @@ Large Language Models are the models that are trained on the huge corpus of the 
 
  *Fig: Transformer*  
 
+# How to Use
+> [Notebook](./JinaAi_webscrapping.ipynb) contains all the directions 
+
+> [app.py](./app.py) contains the API implementation of how the html content can be scraped off
+```html
+
+html_content = """
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page</title>
+</head>
+<body>
+    <div class="product">
+        <h1>Haylou LS02 Touch Screen Smart Watch</h1>
+        <p>Description: A smart watch with heart monitoring, call alerts, and IP68 waterproofing.</p>
+    </div>
+</body>
+</html>
+"""
+```
+can be changed to the e-commerce site
+> `pip install ollama` to download llama 
+and `ollama pull llama3` to rull ollama3 locally and `ollama pull nomic-embed-text` to install open source embeddings
+
+>[client.py](./client.py) contains the  proposed API implementaion fror the assessment (there can be issues for this) `pip install -r requirements.txt` to install the required library
+
+
 # Libraries:
 playwright , scrapegraphai==0.9.0b7 ,nest_asyncio, fastapi, uvicorn, transformers, pydentic, requests, beautifulsoup4, --quiet, tiktoken, prettytable, tqdm, nest_asyncio
 # Problem Statement
