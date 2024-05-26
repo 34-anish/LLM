@@ -159,4 +159,3 @@ Fig : Hallucination with the LLM
 # Refences
 1. https://medium.com/@amanatulla1606/llm-web-scraping-with-scrapegraphai-a-breakthrough-in-data-extraction-d6596b282b4d
 2. https://www.youtube.com/watch?v=2BTI3KIiGHU
-3. https://www.youtube.com/watch?v=2BTI3KIiGHU&t=186s
